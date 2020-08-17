@@ -5,7 +5,7 @@ license = "MIT"
 srcDir = "src"
 
 requires "nim >= 0.15.0"
-requires "regex >= 0.7.4"
+requires "https://github.com/KomodoPlatform/nim-regex >= 0.7.4"
 
 task test, "Test":
   exec "nimble c --verbosity:0 -r -y test/test"
